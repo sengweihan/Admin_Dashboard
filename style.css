@@ -32,7 +32,7 @@ body {
 
 .right_side_bar {
   grid-area: rb;
-  background-color: aquamarine;
+  background-color: #0ea5e9;
 }
 
 /*  STYLING  SIDEBAR SECTION*/
@@ -91,15 +91,16 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 1.2rem 2rem;
-  row-gap: 1.6rem;
+  row-gap: 1.8rem;
+  column-gap: 3rem;
 }
 
 .main-container {
   background-color: white;
   border: 5px solid white;
   border-radius: 8px;
-  max-width: 350px;
-  min-height: 180px;
+  max-width: 380px;
+  max-height: 210px;
   padding: 20px;
   line-height: 1.3rem;
   display: flex;
@@ -120,9 +121,8 @@ body {
 }
 
 .main-container h4 {
-  padding-bottom: 0.6rem;
+  margin-bottom: 1.2rem;
   font-size: 1.2rem;
-  font-weight: bolder;
 }
 
 .icons {
@@ -138,7 +138,55 @@ body {
 }
 
 /*  RIGHT SIDE BAR STYLING */
+
 .right_bar_content {
-  border: 1px solid blue;
+  max-width: 280px;
+  margin-left: 5px;
+  min-height: 350px;
+  border: 1px solid white;
   border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right_bar_content .rb_content {
+  padding: 20px 25px;
+  max-width: 235px;
+}
+
+.rb_content:nth-child(1) {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.311);
+}
+
+.rb_content:nth-child(2) {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.311);
+}
+
+.right_bar_content .rb_content h3 {
+  font-size: 0.9rem;
+}
+
+.right_bar_content .rb_content p {
+  color: #4b5563cb;
+  font-size: 0.75rem;
+}
+
+.right_side_bar .rb_title {
+  font-size: 1.1rem;
+  margin: 1.2rem 0.6rem;
+}
+
+.right_bar_second_content {
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: white;
+  margin-left: 5px;
+}
+
+.rb_second_content img {
+  border-radius: 50%;
+  height: 90px;
+  width: 120px;
 }
