@@ -17,7 +17,7 @@ body {
 
 .header {
   grid-area: hd;
-  background-color: #a78bfa;
+  background-color: white;
 }
 
 .main {
@@ -75,7 +75,7 @@ body {
   grid-template-columns: repeat(9, 1fr);
 }
 
-.header_second_row .profile_intro img {
+.doge_image img {
   margin-top: 0.4rem;
   margin-left: 3.8rem;
   border-radius: 50%;
@@ -104,7 +104,7 @@ body {
   border-radius: 8px;
   font-size: 1.1rem;
   width: 6rem;
-  height: 2rem;
+  height: 1.7rem;
 }
 
 .new_btn {
@@ -119,6 +119,41 @@ body {
 .share_btn {
   margin: 1.2rem;
 }
+
+.form {
+  grid-column: span 5;
+}
+.form input {
+  margin: 0.5rem;
+  width: 97%;
+  height: 25px;
+  background-color: #d6d3d1ac;
+  border-radius: 10px;
+  border: 1px solid #d6d3d1ac;
+}
+
+.notification {
+  grid-column: 7;
+}
+
+.profile_icon {
+  font-size: 1.4rem;
+  color: black;
+  padding: 0.5rem 0 0 5.5rem;
+}
+
+.doge_image_header {
+  display: flex;
+  width: 90%;
+  gap: 1.2rem;
+  grid-column: 8 / 10;
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
+.doge_image_header img {
+  border-radius: 50%;
+  height: 40px;
+}
 /* STYLING MAIN CONTENT  */
 .title {
   margin: 1.2em 0 1.2em 2rem;
@@ -126,7 +161,7 @@ body {
 }
 .main-content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
   margin: 1.2rem 2rem;
   row-gap: 1.8rem;
   column-gap: 3rem;
