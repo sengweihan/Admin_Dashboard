@@ -172,7 +172,7 @@ body {
   border: 5px solid white;
   border-radius: 8px;
   max-width: 380px;
-  max-height: 210px;
+  min-height: 210px;
   padding: 20px;
   line-height: 1.3rem;
   display: flex;
