@@ -4,11 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!-- LINK TO BOXICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- LINK TO CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header class="header">
-      <div class="main-header">
+      <div class="header_first_row">
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
           provident aspernatur distinctio fugit quisquam illum reiciendis
@@ -16,51 +25,216 @@
           beatae et natus porro libero nihil?
         </p>
       </div>
+
+      <div class="header_second_row">
+        <div class="profile_intro">
+          <img src="images/images.jpg" alt="doge_pic" />
+          <div>
+            <p><strong>Hi there,</strong></p>
+            <h3>Shiba Inu (@shibaInu)</h3>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <aside class="side_bar">
-      <div class="left-side-bar">
-        <h2>Dashboard</h2>
-        <div class="left-side-bar-initial-content"></div>
+    <aside class="left_side_bar">
+      <a href="" class="dashboard_header">
+        <i class="bx bxs-dashboard"></i>
+        <span class="header_text">Dashboard</span>
+      </a>
 
-        <div class="left-side-bar-second-content"></div>
-      </div>
+      <nav class="navigation_menu">
+        <ul>
+          <li>
+            <a href="">
+              <i class="bx bxs-home"></i>
+              <span class="text">Home</span>
+            </a>
+            <a href="">
+              <i class="bx bxs-face-mask"></i>
+              <span class="text">Profile</span>
+            </a>
+            <a href="">
+              <i class="bx bx-message-dots"></i>
+              <span class="text">Message</span>
+            </a>
+            <a href="">
+              <i class="bx bx-history"></i>
+              <span class="text">History</span>
+            </a>
+            <a href="">
+              <i class="bx bx-task"></i>
+              <span class="text">Task</span>
+            </a>
+            <a href="">
+              <i class="bx bx-user-voice"></i>
+              <span class="text">Communities</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="navigation_menu">
+        <ul>
+          <li>
+            <a href="">
+              <i class="bx bx-cog"></i>
+              <span>Setting</span>
+            </a>
+            <a href="">
+              <i class="bx bx-support"></i>
+              <span>Support</span>
+            </a>
+            <a href="">
+              <i class="bx bx-music"></i>
+              <span>Music</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </aside>
 
     <main class="main">
-      <div class="your_projects">
+      <div><h4 class="title">Your Projects</h4></div>
+      <div class="main-content">
         <div class="main-container">
-          <h2>Super cool project</h2>
+          <h4>Super cool project</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum,
+            aliquid. Veritatis tempore nulla ex ullam delectus tenetur incidunt
+            libero, sint ea hic amet doloremque eaque? Unde natus incidunt alias
+            beatae!
+          </p>
+          <div class="icons">
+            <i class="bx bx-share-alt"></i>
+            <i class="bx bx-message-dots"></i>
+            <i class="bx bxs-bookmark-star"></i>
+          </div>
         </div>
         <div class="main-container">
-          <h2>Less cool project</h2>
+          <h4>Less cool project</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            assumenda nostrum quis fugit delectus quidem numquam natus sed dolor
+            vel ad, quos alias minima consequatur. Optio quisquam perspiciatis
+            vel animi?
+          </p>
+          <div class="icons">
+            <i class="bx bx-share-alt"></i>
+            <i class="bx bx-message-dots"></i>
+            <i class="bx bxs-bookmark-star"></i>
+          </div>
         </div>
         <div class="main-container">
-          <h2>Impossible project</h2>
+          <h4>Impossible project</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            assumenda nostrum quis fugit delectus quidem numquam natus sed dolor
+            vel ad, quos alias minima consequatur. Optio quisquam perspiciatis
+            vel animi?
+          </p>
+          <div class="icons">
+            <i class="bx bx-share-alt"></i>
+            <i class="bx bx-message-dots"></i>
+            <i class="bx bxs-bookmark-star"></i>
+          </div>
         </div>
         <div class="main-container">
-          <h2>Easy peasy project</h2>
+          <h4>Easy peasy project</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            assumenda nostrum quis fugit delectus quidem numquam natus sed dolor
+            vel ad, quos alias minima consequatur. Optio quisquam perspiciatis
+            vel animi?
+          </p>
+          <div class="icons">
+            <i class="bx bx-share-alt"></i>
+            <i class="bx bx-message-dots"></i>
+            <i class="bx bxs-bookmark-star"></i>
+          </div>
         </div>
         <div class="main-container">
-          <h2>Ad Blocker project</h2>
+          <h4>Ad Blocker project</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            assumenda nostrum quis fugit delectus quidem numquam natus sed dolor
+            vel ad, quos alias minima consequatur. Optio quisquam perspiciatis
+            vel animi?
+          </p>
+          <div class="icons">
+            <i class="bx bx-share-alt"></i>
+            <i class="bx bx-message-dots"></i>
+            <i class="bx bxs-bookmark-star"></i>
+          </div>
         </div>
         <div class="main-container">
-          <h2>Money Maker</h2>
+          <h4>Money Maker</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            assumenda nostrum quis fugit delectus quidem numquam natus sed dolor
+            vel ad, quos alias minima consequatur. Optio quisquam perspiciatis
+            vel animi?
+          </p>
+          <div class="icons">
+            <i class="bx bx-share-alt"></i>
+            <i class="bx bx-message-dots"></i>
+            <i class="bx bxs-bookmark-star"></i>
+          </div>
         </div>
       </div>
-      <div class="announcement">
-        <div class="main-container">
+
+      <!-- <div class="announcement">
+        <div><h2>Announcement</h2></div>
+        <div class="main-container announcement-container">
           <h2>Site Maintenance</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo odit c
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            assumenda nostrum quis fugit delectus quidem numquam natus sed dolor
+            vel ad, quos alias minima consequatur. Optio quisquam perspiciatis
+            vel animi?
           </p>
         </div>
       </div>
-      <div class="trending">
-        <div class="main-container">
+
+      <div>
+        <div><h2>Trending</h2></div>
+        <div class="main-container trending-container">
           <h1>alibaba</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+            ipsum blanditiis impedit consequatur pariatur commodi minima qui id
+            soluta ab quo dolorum provident tenetur, aperiam quasi animi
+            eligendi praesentium necessitatibus.
+          </p>
+        </div>
+      </div> -->
+    </main>
+
+    <aside class="right_side_bar">
+      <div><h4 class="title">Announcements</h4></div>
+      <div class="right_bar_content">
+        <div class="rb_content">
+          <h3>Site Maintenance</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Cupiditate, tempora laboriosam! Labore molestias ratione
+          </p>
+        </div>
+        <div class="rb_content">
+          <h3>Site Maintenance</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Cupiditate, tempora laboriosam! Labore molestias ratione
+          </p>
+        </div>
+        <div class="rb_content">
+          <h3>Site Maintenance</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Cupiditate, tempora laboriosam! Labore molestias ratione
+          </p>
         </div>
       </div>
-    </main>
+    </aside>
   </body>
 </html>
