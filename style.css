@@ -161,7 +161,7 @@ body {
 }
 .main-content {
   display: grid;
-  grid-template-columns: repeat(2, minmax(150px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   margin: 1.2rem 2rem;
   row-gap: 1.8rem;
   column-gap: 3rem;
