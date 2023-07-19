@@ -32,7 +32,8 @@ body {
 
 .right_side_bar {
   grid-area: rb;
-  background-color: #0ea5e9;
+  background-color: #f3f4f6;
+  position: relative;
 }
 
 /*  STYLING  SIDEBAR SECTION*/
@@ -69,19 +70,55 @@ body {
 }
 
 /* SYLING HEADER SECTION */
-.header_second_row {
+.profile_intro {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
 }
-.header_second_row .profile_intro {
-  display: flex;
-  grid-column: span 7;
-}
+
 .header_second_row .profile_intro img {
+  margin-top: 0.4rem;
+  margin-left: 3.8rem;
   border-radius: 50%;
-  height: 50px;
+  height: 60px;
 }
 
+.profile_desc {
+  grid-column: span 2;
+  margin-top: 0.35rem;
+  margin-left: 1.2rem;
+  line-height: 1.3rem;
+}
+
+.profile_desc h3 {
+  font-size: 1.3rem;
+}
+.profile_desc p {
+  font-size: 0.7rem;
+}
+
+.btn button {
+  font-family: monospace;
+  color: white;
+  background: #0ea5e9;
+  border: 1px solid #0ea5e9;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  width: 6rem;
+  height: 2rem;
+}
+
+.new_btn {
+  margin: 1.2rem;
+  grid-column: 7;
+}
+
+.upload_btn {
+  margin: 1.2rem;
+}
+
+.share_btn {
+  margin: 1.2rem;
+}
 /* STYLING MAIN CONTENT  */
 .title {
   margin: 1.2em 0 1.2em 2rem;
@@ -164,11 +201,11 @@ body {
   border-bottom: 1px solid rgba(128, 128, 128, 0.311);
 }
 
-.right_bar_content .rb_content h3 {
+.rb_content_h3 {
   font-size: 0.9rem;
 }
 
-.right_bar_content .rb_content p {
+.rb_content_p {
   color: #4b5563cb;
   font-size: 0.75rem;
 }
@@ -179,14 +216,26 @@ body {
 }
 
 .right_bar_second_content {
+  min-height: 200px;
   border: 1px solid white;
   border-radius: 8px;
   background-color: white;
   margin-left: 5px;
+  max-width: 280px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  padding: 0.35rem 0.5rem;
 }
 
-.rb_second_content img {
+.cat_images img {
+  margin: 10px 30px;
   border-radius: 50%;
-  height: 90px;
-  width: 120px;
+  height: 50px;
+  width: 50px;
+}
+
+.rb_second_container {
+  margin: 10px 120px 0 0;
+  width: 90%;
 }
