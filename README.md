@@ -1,6 +1,8 @@
 # Admin_Dashboard
 
-## Admin dashboard project from Odin Project (Link: https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
+## Admin dashboard project from Odin Project 
+
+(Link: https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
 
 Live Demo: https://sengweihan.github.io/Admin_Dashboard/
 
